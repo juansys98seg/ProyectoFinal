@@ -1,0 +1,26 @@
+    
+
+    <header> 
+   
+        
+         
+            <nav class="BarraNavInterna">
+                
+<div>
+                <img src="https://i.ibb.co/Qfdpdv9/image0.png" class="LogoBarra" >
+            
+
+        
+            
+                <ul>
+           <li class="Hv" > <a  href="./index.html" class="EnlaceMenu" >Home</a> </li> 
+           <li class="Hv" > <a href="./page/Menu.html" class="EnlaceMenu"  >Menú</a> </li>
+           <li class="Hv"  ><a href="./page/Media.html" class="EnlaceMenu"  >Media</a></li> 
+          <li class="Hv"  >  <a href="./page/Eventos.html" class="EnlaceMenu"  >Eventos</a> </li>
+           <li class="Hv"  > <a href="./page/Contacto.html" class="EnlaceMenu"  >Contacto</a> </li>
+        </div>
+        </ul>
+
+    
+
+        </nav>
