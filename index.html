@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,218 +8,176 @@
     <title>445 bar</title>
 
     <!-- Linkeo pagina de animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-    
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-
-      <!-- Linkeo al archivo de js -->
-      <script src="/js/MenuToggle.js" defer></script>
-    
+    <!--   ////////////////////////////// -->
 
 
+    <!-- Linkeo el archivo css -->
 
-     <!-- Linkeo el archivo css -->
-
-
-<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 
-<!-- Linkeo fuentes para tipografia de google -->
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Style+Script&display=swap" rel="stylesheet">
+    <!--   ////////////////////////////// -->
 
 
+    <!-- Linkeo fuentes para tipografia de google -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <!--   ////////////////////////////// -->
+
+    <!-- Linkeo Bootstrap -->
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 
 
-</div>
-
+    <style type="text/css">
+        body {
+            background: #03071e !important;
+        }
+        /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
 </head>
 
 
 <!---Esto es lo que ve el usuario -->
 
 <body>
+    <header>
+
+        <!-- BARRA DE NAVEGACION QUE SERIA EL MENU -->
 
 
-   
+
+        <nav class="BarraNavInterna ">
+
+            <div>
+
+                <a href="#">
+
+                    <img src="images/image0.png" class="LogoBarra"> </a>
+            </div>
 
 
-    
-
-    <header> 
-
-      <!-- BARRA DE NAVEGACION QUE SERIA EL MENU -->
-   
-        
-         
-            <nav   class="BarraNavInterna ">
-
-              <div>
-
-              <img src="images/image0.png" class="LogoBarra" ></div>
-
-              
-              <a href="#" class="ToggleButton">
+            <a href='#' class="ToggleButton">
 
                 <span class="bar"></span>
-                <span class="bar" ></span>
                 <span class="bar"></span>
-               
+                <span class="bar"></span>
+            </a>
 
-              
+            <div class="MenuFlex">
 
-
-        <div class="MenuFlex" >
-            
                 <ul>
-           <li> <a  href="./index.html"  >Home</a> </li>
-           
-           <li> <a href="./page/Menu.html"   >Menú</a> 
-          <li><a href="./page/Media.html"   >Media</a></li> 
-          <li>  <a href="./page/Eventos.html"   >Eventos</a> </li>
-          <li> <a href="./page/Contacto.html"   >Contacto</a> </li>
-           
-           
-        
-        </ul>
-
-      </div>
-        
-      
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="./page/Menu.html">Menú</a></li>
+                    <li><a href="./page/Media.html">Media</a></li>
+                    <li> <a href="./page/Eventos.html">Eventos</a> </li>
+                    <li> <a href="./page/Contacto.html">Contacto</a> </li>
 
 
-        
-      
-    
+
+                </ul>
+
+            </div>
 
         </nav>
 
-
-
-
         <!-- Ejemplo -->
-        
-
-      
-
-    
-
-
-
-        
-    
 
 
         <!-- Logo imagen del bar -->
 
-<div class="TopImagen ">
+        <div class="TopImagen ">
 
 
-  
-
-    
+            <img class="animate__animated animate__fadeInDown " src="images/image0.png" id="LOGO">
 
 
-    <img class="animate__animated animate__bounceInDown " src="images/image0.png" id="LOGO" >
-
-    
-</div>
-
-
-
-</div>
-
-
-</header>
-
-
-
-
-      
-    
-    
-
-
-    
-    
-
-    
-
-
-
-
-
-
-
-<!-- Texto Del main  -->
-
-
-<div>
-<h1 class="ParrafoLorem" >¿Quienes somos?</h1>
-    <h3 class="ParrafoLorem" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, vitae porro omnis ipsa maiores in labore est eveniet, dolorem corrupti itaque at blanditiis iusto ea officiis delectus illo, saepe atque.
-    Molestiae ad eaque illo veritatis amet libero minus, asperiores assumenda. Inventore velit incidunt dolor mollitia doloremque voluptas eos nesciunt voluptate quibusdam quos pariatur libero quia deserunt, illum consequatur ullam sed?
-    Expedita illum hic ullam incidunt consequatur nemo libero voluptate nesciunt, iusto, dicta eveniet cum ipsam pariatur maiores delectus, neque quisquam dignissimos vitae! Esse odit enim delectus ullam commodi excepturi. Perspiciatis?
-    Inventore iusto adipisci dolore architecto sed modi eligendi, tempore quis quo ipsam, quibusdam nam deserunt obcaecati veniam, dolorum neque totam vitae reiciendis ducimus eos harum pariatur. Nam odio voluptate facilis.
-    Recusandae fugiat, iure ipsa et totam quasi eaque quam. Dolorem beatae incidunt nemo, corporis quae, explicabo fuga minus perferendis ipsum aperiam vitae repudiandae? Nemo, quod porro. Molestiae neque consectetur tenetur.</h3>
-  </div>
-
-
-  
-
-  
-
-  
-
-
-<!-- FLEXBOX DE INFO -->
-  <section class="sectionFlex">
-
-    
-      <div class="flex-container">
-
-       
-
-        <div class="flex-containerDIV1">La mejor vista del km 445
-          <br>
-          <br>
-        
-
-          <p class="P1">El rio Paraná desde otro punto de vista. Disfruta con nosotros
-
-          </p>
         </div>
-        <div class="flex-containerDIV1">Nuestro Menu
-          <br>
-          <br>
-          <div class="DivButton">
-          <button class="button"><a href="Menu" ></a>Click</button>
-
-          </div>
 
 
 
         </div>
 
 
-        <div class="flex-containerDIV1">Cafeteria  
+    </header>
 
-          <p class="P1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, iste ut debitis eaque officia iusto reiciendis, explicabo impedit, quidem excepturi earum dignissimos quae doloremque sint magnam vitae. Culpa, voluptatum nobis!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FLEXBOX DE cartas de informacion -->
+    <section class="sectionFlex">
+
+
+        <div class="flex-container">
+
+            <div class="flex-containerDIV1 animate__animated animate__backInDown">
+                <h1> >Nuestro Menú </h1>
+                <br>
+                <h2>Consultá La sugerencia del día</h2>
+                <br>
+                <div class="DivButton">
+                    <button onclick="window.location.href='https://drive.google.com/file/d/1Xlrat5CvHPGuT0rFahohYFcfiZnBJ5st/view'" class="button"><a href="https://drive.google.com/file/d/1Xlrat5CvHPGuT0rFahohYFcfiZnBJ5st/view" ></a>Click</button>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="flex-containerDIV1 animate__animated animate__backInDown">
+                <h1>>La Mejor Vista del KM 445</h1>
+                <br>
+                <br>
+
+
+                <p class="P1">El rio Paraná desde otro punto de vista. Disfruta con nosotros
+
+                </p>
+            </div>
+
+
+
+
+
+            <div class="flex-containerDIV1 animate__animated animate__backInDown">
+                <h1>>GiftCards</h1>
+
+                <p class="P1">Consultá por nuestras GiftCards <a href="./page/giftcards.html">Acá</a>
+
+                    <h2>FOTO</h2>
+            </div>
+
+
+
+
         </div>
-      
-
-
-
-      </div>
-  </section>
+    </section>
 
 
 
@@ -226,76 +185,208 @@
 
 
 
-   <hr>
-
-<!-- Imagenes del restaurante -->
-
-    <img class="images"   width="300px";     src="./images/resto1.jpg" alt="SALON"> <br> 
-    <img class="images"   width="300px" src="./images/resto2.jpg" alt="cocina">
-
-
-
-
-
-    
 
 
 
 
 
 
- 
+    <div class="ParrafoLorem">
 
 
 
 
 
 
-    
-    
-    
-    
-    
-    <hr> 
-    
-    
+
+        <h1>Como Llegar?</h1>
+
+        <p>Estamos Ubicados en la ciudad de San Lorenzo</p>
+        <p>Parente 1381</p>
+
+        <aside>
+
+        </aside>
+
+
+
+
+        <!-- ================== -->
+        <!-- Google Map Element -->
+        <section class="google-map">
+            <div class="map-frame">
+
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13422.6653797686!2d-60.727607!3d-32.7480493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa40e9cca7cd1508d!2s445%20Caf%C3%A9%20Bar!5e0!3m2!1ses-419!2sar!4v1631726219781!5m2!1ses-419!2sar" width="600"
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy"><h1>Como Llegar a Nosotro?</h1></iframe>
+
+            </div>
+        </section>
+
+
+        <!-- Imagenes FLIP -->
+
+
+        <!-- Google Map Element -->
+        <!-- ================== -->
+
+        <h1>¿Quienes somos?</h1>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, vitae porro omnis ipsa maiores in labore est eveniet, dolorem corrupti itaque at blanditiis iusto ea officiis delectus illo, saepe atque. Molestiae ad eaque illo veritatis amet
+            libero minus, asperiores assumenda.</h3>
+        <h3>Inventore velit incidunt dolor mollitia doloremque voluptas eos nesciunt voluptate quibusdam quos pariatur libero quia deserunt, illumconsequatur ullam sed?</h3>
+
+
+        <h1 class="text">DESLIZá</h1>
+
+        <div id="carouselWithIndicators" class="carousel slide pointer-event" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/resto1.jpg" class="d-block w-100 ObjetoCarusell" alt="Slide 1" o>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/barfondo.jpg" class="d-block w-100 ObjetoCarusell" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/PEHUA.jpg" class="d-block w-100 ObjetoCarusell" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Terraza.jpg" class="d-block w-100 ObjetoCarusell" alt="Slide 4">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselWithIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+
+        <h3>
+
+
+
+            illum hic ullam incidunt consequatur nemo libero voluptate nesciunt, iusto, dicta eveniet cum ipsam pariatur maiores delectus, neque quisquam dignissimos vitae! Esse odit enim delectus ullam commodi excepturi. Perspiciatis? Inventore iusto adipisci dolore
+            architecto sed modi eligendi, tempore quis quo ipsam, quibusdam nam deserunt obcaecati veniam, dolorum neque totam vitae reiciendis ducimus eos harum pariatur. Nam odio voluptate facilis. Recusandae fugiat, iure ipsa et totam quasi eaque quam.
+            Dolorem beatae incidunt nemo, corporis quae, explicabo fuga minus perferendis ipsum aperiam vitae repudiandae? Nemo, quod porro. Molestiae neque consectetur tenetur</h3>.
+    </div>
+
+
+
+
+
+
+
+
+    <hr>
+
+
+    <!-- Imagenes FLIP -->
+
+
+
+
+
+
+
+
+    <!-- Imagenes del restaurante -->
+
+    <img class="images" width="300px" ; src="./images/resto1.jpg" alt="SALON"> <br>
+    <img class="images" width="300px" src="./images/resto2.jpg" alt="cocina">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+
 
     <!-- Footer ya armado  -->
-    <footer>
-        
-
-<section class="FOOTER2">
-
-        
-               <article class="art1"> <p>Telefono +5493413446947 </p> </article>
-
-                
-
-            
-
-        <hr>
-
-
-       
-        <article class="art1"> <p>Bv. Urquiza 236</p> </article>
-
-                
-
-            
-
-                   <hr>
-
-                   
-
-                   <article class="art1"><p>Todos los derechos reservados</p> </article>
-
-                       </section>  
 
 
 
 
-    </a></footer>
-   
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="social-footer">
+
+
+
+
+        <div class="social-footer-icons">
+            <ul class="menu simple">
+                <li> <img src="images/733592-social/png/007-whatsapp.png" class="IconsFooter" alt="">
+                    <a href="https://www.facebook.com/"></a><i class="IconWhatsapp" aria-hidden="true"></i></a>
+                </li>
+                <li><img src="images/733592-social/png/043-facebook-1.png" class="IconsFooter">
+                    <a href="https://www.instagram.com/?hl=en"></a><i class="IconFacebook" aria-hidden="true"></i></a>
+                </li>
+                <li><img src="images/733592-social/png/034-instagram.png" class="IconsFooter">
+                    <a href="https://www.pinterest.com/"></a><i class="IconInstagram" aria-hidden="true"></i></a>
+                </li>
+                <li><img src="images/733592-social/png/019-spotify.png" class="IconsFooter">
+                    <a href="https://twitter.com/?lang=en"></a><i class="IconSpotify" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Linkeo de JS -->
+
+    <script src="js/MenuToggle.js" defer></script>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
 </body>
-</html>aaa
+
+</html>

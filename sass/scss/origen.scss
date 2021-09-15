@@ -1,0 +1,101 @@
+/* Imports */
+
+@import url(./IMPORTS/navbar.css);
+@import url(./IMPORTS/footer.css);
+@import url(./IMPORTS/map.css);
+@import url(/node_modules/bootstrap/scss/bootstrap);
+@import url(/sass/scss/IMPORTS/ImagenTop.css);
+
+/* IMPORT DE BOOTSTRAP */
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import url(/node_modules/bootstrap/scss/functions); // 2. Include any default variable overrides here
+// 3. Include remainder of required Bootstrap stylesheets
+@import url(/node_modules/bootstrap/scss/variables);
+@import url(/node_modules/bootstrap/scss/mixins);
+// 4. Include any optional Bootstrap components as you like
+@import url(/node_modules/bootstrap/scss/root);
+@import url(/node_modules/bootstrap/scss/reboot);
+@import url(/node_modules/bootstrap/scss/type);
+@import url(/node_modules/bootstrap/scss/images);
+@import url(/node_modules/bootstrap/scss/containers);
+@import url(/node_modules/bootstrap/scss/grid);
+// 5. Add additional custom code here
+// Custom.scss
+// Option A: Include all of Bootstrap
+// Include any default variable overrides here (though functions won't be available)
+// Then add additional custom code here
+
+/* Variables */
+
+
+/* Lista */
+
+$lista1: red,
+green,
+blue,
+yellow;
+$primario: nth($lista1, 1);
+$colors: ( div: #D16E8D, articles: #FFAC83, link: #3F78C9, button: #49C4A3, );
+
+/* Each Loop */
+
+@each $name,
+$color in $colors {
+    .#{$name} {
+        color: $color;
+    }
+}
+
+
+/* Mapa */
+
+$headings: ( h1: 4em, h2: 3em, h3: 2em, h4: 1em);
+$h1: map-get($headings, h1);
+
+/* Codigo CSS PURO */
+
+h1 {
+    color: $primario;
+    font-size: $h1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+body {
+    background-color: #03071e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content {
+    padding-top: 10vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3em rgba(0, 0, 0, .15);
+    background-color: rgba(153, 27, 27, 0.767);
+}
+
+.title {
+    margin: 0 0 .5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    color: #ee6352;
+    line-height: .8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

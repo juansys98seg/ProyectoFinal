@@ -1,6 +1,6 @@
-const toggleButton = document.getElementsByClassName('ToggleButton')[0]
-const navbarLinks = document.getElementsByClassName('MenuFlex')[0]
+const ToggleButton = document.getElementsByClassName('ToggleButton')[0]
+const MenuFlex = document.getElementsByClassName('MenuFlex')[0]
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
+ToggleButton.addEventListener('click', () => {
+  MenuFlex.classList.toggle ('active')
 })

@@ -1,0 +1,24 @@
+#LOGO {
+    height: auto;
+    position: absolute relative;
+    width: 600px;
+    margin-right: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+.TopImagen {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    object-position: 0;
+    background-image: url(../images/barfondo.jpg);
+    background-position: 100px;
+    z-index: 0;
+}
+
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 3.22s;
+    opacity: 90%;
+}
